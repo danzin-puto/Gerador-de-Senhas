@@ -4,12 +4,37 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <title>Gerador De Senhas Do Gago</title>
 </head>
 <body>
-    <img src="unlock.svg" alt="">
-    <h2>Gerador de senhas</h2>
-    <h3>Gere automaticamente uma senha aleatória e segura</h3>
+    <section>
+        <div>
+            <img src="unlock.svg" alt="">
+            <h2 class="titulo-principal">Gago's senhas</h2>
+            <h3 class="titulo-secundario">Gere automaticamente uma senha aleatória e nada segura</h3>
+        </div>
+        <div>
+            <label for="senha">Senha</label>
+            <input name="senha" type="text" id="campo-senha">
+        </div>
+    </section>
+
+<div>
+    <h3>Personalize sua senha</h3>
+    <div class="parametro-coluna__senha">
+        <div class="parametro-senha"></div>
+        <h4 class="parametro-senha__tituo">Número de caracteres</h4>
+        <div class="parametro-senha-botoes">
+            <button class="parametro-senha__botao">-</button>
+            <p class="parametro-senha__texto">12</p>
+            <button class="paametro-senha__botao">+</button>
+        </div>
+    </div>
+</div>
+   
 </body>
 </html>
